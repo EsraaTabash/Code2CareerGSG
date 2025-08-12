@@ -42,7 +42,7 @@ class Game {
 
   void playMatch() {
     print(
-      '\nStadium:${_stadium.name} in ${_stadium.location} (Capacity: ${_stadium.capacity})\n',
+      '\nStadium: ${_stadium.name} in ${_stadium.location} (Capacity: ${_stadium.capacity})\n',
     );
     print('Match:\n${_firstTeam.name} VS. ${_secondTeam.name}');
 
